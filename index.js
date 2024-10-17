@@ -31,7 +31,7 @@ if(heroLevel < 1000){
 }
 
 // Montando Mensagem
-const mensagem = "O Herói de nome " + heroName + " está no nível de " + heroRank
+let mensagem = "O Herói de nome " + heroName + " está no nível de " + heroRank
 
 // Exibindo Mensagem
 console.log(mensagem)
